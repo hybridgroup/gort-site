@@ -1,0 +1,7 @@
+body {
+	background: $base-body-color;
+}
+
+#main {
+    @include outer-container;
+}

@@ -1,0 +1,11 @@
+footer {
+  background: $blue;
+  margin-top: em(20);
+
+  .container {
+    @include outer-container;
+    padding: em(20) 0;
+    color: white;
+  }
+}
+

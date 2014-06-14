@@ -1,0 +1,19 @@
+%html
+  %head>
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+    %title= current_page.data.title
+    %link{href: "/stylesheets/normalize.css", rel: "stylesheet"}
+    %link{href: "/stylesheets/all.css", rel: "stylesheet"}
+  
+  %body
+
+    - if current_page.data.homeMenu == true
+      = partial "partials/nav_home"
+    - else
+      = partial "partials/nav"
+
+    %div#main{role: "main"}
+      = yield 
+    
+    = partial "partials/footer" 

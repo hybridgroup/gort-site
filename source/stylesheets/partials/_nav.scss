@@ -1,0 +1,16 @@
+nav {
+  @include outer-container;
+
+  ul {
+    display: inline-block;
+    margin-bottom: em(10);
+  }
+}
+
+.home-menu {
+	
+	background: $dark-gray;
+	margin-bottom: em(20);
+	color: white;
+	padding: em(20) 0;
+}
