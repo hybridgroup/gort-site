@@ -6,8 +6,9 @@ configure :build do
 end
 
 activate :directory_indexes
+activate :neat
 
 configure :development do
   activate :livereload
-  activate :neat
+  
 end
