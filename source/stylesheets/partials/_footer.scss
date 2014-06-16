@@ -1,11 +1,18 @@
 footer {
-  background: $blue;
-  margin-top: em(20);
+  background: url(images/footer.png) $dark-blue no-repeat center center;
 
   .container {
     @include outer-container;
-    padding: em(20) 0;
-    color: white;
+    padding: em(30) 0;
+    color: $light-gray;
+
+    .copy {
+    	@include span-columns(6);
+      text-align: right;
+    }
+    .THG {
+    	@include span-columns(6);
+    }
   }
 }
 

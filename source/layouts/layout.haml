@@ -1,3 +1,4 @@
+!!!5
 %html
   %head>
     %meta{:charset => "utf-8"}
@@ -8,12 +9,11 @@
   
   %body
 
-    - if current_page.data.homeMenu == true
-      = partial "partials/nav_home"
-    - else
-      = partial "partials/nav"
+    = partial "partials/nav_home"
 
-    %div#main{role: "main"}
-      = yield 
+    - if current_page.data.grayBackground == true
+      = partial "partials/gray_background"
+
+    = yield
     
     = partial "partials/footer" 
