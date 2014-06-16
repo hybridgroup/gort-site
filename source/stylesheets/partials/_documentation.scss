@@ -1,0 +1,38 @@
+.documentation {
+	
+	.container {
+		@include outer-container;
+		padding: em(20) 0;
+
+		.side-bar {
+
+			@include span-columns(3);
+			background: $side-bar-color;
+			padding: em(10) em(20);
+			@include border-top-radius(5px);
+			@include border-bottom-radius(5px);
+			@include border-left-radius(5px);
+			@include border-right-radius(5px);
+		}
+		.content {
+
+			@include span-columns(9);
+
+			.content-info {
+
+				.title {
+
+					font-family: Helvetica, sans-serif;
+					border-bottom: 1px solid $light-gray;
+					color: #666;
+					font-weight: 100;
+					padding: em(5px);
+					padding-left: 70px;
+					background: url(images/title.png) no-repeat left center;
+					margin-bottom: em(10);
+				}
+			}
+		}
+	}
+	
+}

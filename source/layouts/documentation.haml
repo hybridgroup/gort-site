@@ -1,3 +1,7 @@
 - wrap_layout :layout do
   .documentation
-    = yield
+    .container
+      .side-bar
+        = partial "/documentation/side_bar"
+      .content
+        = yield
