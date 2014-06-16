@@ -16,13 +16,3 @@ h1,h2,h3,h4,h5,h6 {
     color: $blue;
 }
 
-pre {
-
-	background: lighten($dark-gray, 10);
-	padding: em(5);
-	margin: 0;
-	@include border-top-radius(5px);
-	@include border-bottom-radius(5px);
-	@include border-left-radius(5px);
-	@include border-right-radius(5px);
-}
