@@ -8,6 +8,44 @@ docs_cli_active: true
 ---
 
 .content-info
-  %h1.title-top Commands (CLI)
+  %h1.title-top Commands CLI
+  %h2 How To Use
   .description
-    fdfdf
+    :markdown
+          $ ./gort
+          NAME:
+             gort - Command Line Utility for RobotOps
+          
+          USAGE:
+             gort [global options] command [command options] [arguments...]
+
+          VERSION:
+             0.1.0
+
+          COMMANDS:
+             scan   Scan for connected devices on Serial, USB, or Bluetooth ports
+             bluetooth  Scan, pair, unpair bluetooth devices. Establishes serial to Bluetooth connection.
+             arduino  Install avrdude, and upload sketches to your Arduino
+             spark  Upload sketches to your Spark
+             digispark  Configure your Digispark microcontroller
+             crazyflie  Configure your Crazyflie
+             klaatu barada nikto
+             help, h  Shows a list of commands or help for one command
+
+          GLOBAL OPTIONS:
+             --version, -v  print the version
+             --help, -h   show help
+  %h5 Scan for connected serial devices:
+  .description
+    :markdown
+          $ ./gort scan serial
+          [    0.000000] console [tty0] enabled
+  %h2 Building
+  .description
+    %p You need to have installed go-bindata to build the file assets into Gort for a single standalone executable:
+    :markdown
+          go get github.com/jteeuwen/go-bindata/...
+    %p Once installed, you build the assets into the project like this:
+    :markdown
+          cd commands && go-bindata -pkg="commands" support/... && cd ..
+

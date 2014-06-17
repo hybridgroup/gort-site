@@ -1,9 +1,6 @@
 %ul
   %li.title
-    -if current_page.data.docs_home_active == true
-      = link_to "documentation home", "/documentation/getting_started", class: "active title-inside"
-    - else
-      = link_to "documentation home", "/documentation/getting_started", class: 'title-inside'
+    = link_to "documentation home", "/", class: 'title-inside'
   %li.title
     -if current_page.data.docs_cli_active == true
       = link_to "commands (CLI)", "/documentation/cli", class: "active title-inside"
