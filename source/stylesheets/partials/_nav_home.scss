@@ -71,7 +71,6 @@
 	.hero {
 		
 		@include outer-container;
-		padding: 40px 0;
 
 		h2,h5 {
 			font-family: 'Vera-Mono', Helvetica, sans-serif;
@@ -83,7 +82,7 @@
 		.col7 {
 			@include span-columns(7);
 			@include omega();
-
+			padding: em(60) 0;
 
 		}
 		.col5 {
