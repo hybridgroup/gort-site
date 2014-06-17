@@ -1,12 +1,13 @@
-%nav
-  %ul
-    %li.logo
-      %a{href:"/"}
-        %h1 GORT 
-    %li.github
-      = link_to "GITHUB", "https://github.com/hybridgroup/gort-site", target: :blank
-    %li 
-      - if current_page.data.active_docs == true
-        = link_to "DOCS", "/documentation/cli", class: "active"
-      - else
-        = link_to "DOCS", "/documentation/cli"
+.container
+  .logo
+    %a{href:"/"}
+      %h1 GORT 
+  %nav
+    %ul
+      %li.github
+        = link_to "GITHUB", "https://github.com/hybridgroup/gort-site", target: :blank
+      %li 
+        - if current_page.data.active_docs == true
+          = link_to "DOCS", "/documentation/cli", class: "active"
+        - else
+          = link_to "DOCS", "/documentation/cli"

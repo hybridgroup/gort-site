@@ -1,31 +1,40 @@
 .menu {
 	
+	.container {
+		@include outer-container;
+	}
+
 	background: $dark-blue;
 	color: white;
 	padding: em(20) 0;
 
-	.logo a{
+	.logo {
+		@include span-columns(2);
+		a {
 
-		border: none;
-		float: left;
-		padding: 0;
-		margin: 0;
+			border: none;
+			float: left;
+			padding: 0;
+			margin: 0;
+			color: white;
 
-		&:hover {
-			background: transparent;
+			&:hover {
+				background: transparent;
+			}
+
+			h1 {
+				font-family: 'Roboto', Helvetica, sans-serif;
+				background: url(images/iconB.png) no-repeat left center;
+				background-size: 45px;
+				padding-left: 50px;
+			}
+			
 		}
 
-		h1 {
-			font-family: 'Roboto', Helvetica, sans-serif;
-			background: url(images/iconB.png) no-repeat left center;
-			background-size: 45px;
-			padding-left: 50px;
-		}
-		
 	}
 
 	nav {
-	  @include outer-container;
+	  @include span-columns(10);
 	  font-family: 'Roboto', Helvetica, sans-serif;
 
 	  ul {
