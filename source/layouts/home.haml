@@ -1,0 +1,8 @@
+- wrap_layout :layout do
+  %div#main{role: "main"}
+    = yield 
+
+:javascript
+  $(document).ready(function(){
+    $("body").css("background","#e4e4e4");
+  });

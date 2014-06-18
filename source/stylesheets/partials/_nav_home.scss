@@ -1,0 +1,111 @@
+.home-menu {
+	
+	.container {
+		@include outer-container;
+	}
+
+	background: $dark-gray;
+	color: white;
+	padding: em(20) 0;
+
+	.logo {
+		@include span-columns(2);
+	
+		a {
+
+			border: none;
+			padding: 0;
+			margin: 0;
+			color: white;
+			&:hover {
+				background: transparent;
+			}
+
+			h1 {
+				font-family: 'Roboto', Helvetica, sans-serif;
+				background: url(images/icon.png) no-repeat left center;
+				background-size: 45px;
+				padding-left: 50px;
+			}
+			
+		}
+	} 
+
+	nav {
+
+	  @include span-columns(10);
+	  font-family: 'Roboto', Helvetica, sans-serif;
+
+	  ul {
+
+	    @include span-columns(12);
+	    margin-bottom: em(10);
+
+	    a {
+	    	float: right;
+	    	border: $blue 2px solid;
+	    	padding: 8px;
+	    	text-align: center;
+	    	margin-left: 20px;
+	    	width: 130px;
+	    	color: white;
+
+	    	&:hover {
+	    		background: $blue;
+	    		color: white;
+	    	}
+	    }
+
+	    .github a{
+	    	background: url(images/github.png) no-repeat left center;
+			background-size: 40px;
+			padding-left: 55px;
+			&:hover {
+	    		background: $blue;
+	    		color: white;
+	    	}
+	    }
+	  }
+	}
+
+	.hero {
+		
+		@include outer-container;
+
+		h2,h5 {
+			font-family: 'Vera-Mono', Helvetica, sans-serif;
+		}
+		h5 {
+			margin-top: 20px;
+		}
+
+		.col7 {
+			@include span-columns(7);
+			@include omega();
+			padding: em(60) 0;
+
+		}
+		.col5 {
+			@include span-columns(5);
+			@include omega();
+		}
+
+		@media screen and (min-width: 320px) and (max-width: 480px) {
+		  	.col7 {
+				@include span-columns(12);
+				padding: em(10);
+			}
+			.col5 {
+				@include span-columns(12);
+				padding: em(10);
+			}
+		}
+
+		.square {
+			background: $blue;
+			width: 15px;
+			height: 30px;
+			display: inline-block;
+		}
+	}
+}
