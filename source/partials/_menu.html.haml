@@ -1,13 +1,14 @@
 .container
   .logo
     %a{href:"/"}
-      %h1 GORT 
+      %h1 GORT
   %nav
     %ul
       %li.github
-        = link_to "GITHUB", "https://github.com/hybridgroup/gort-site", target: :blank
-      %li 
+        %a{href:"https://github.com/hybridgroup/gort", target: "_blank"}
+          <i class="fa fa-github fa-lg"></i> GITHUB
+      %li
         - if current_page.data.active_docs == true
-          = link_to "DOCS", "/documentation/cli", class: "active"
+          = link_to "DOCS", "/documentation/getting_started", class: "active"
         - else
-          = link_to "DOCS", "/documentation/cli"
+          = link_to "DOCS", "/documentation/getting_started"

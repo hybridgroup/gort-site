@@ -11,6 +11,7 @@ gem "therubyracer"
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+gem 'font-awesome-sass'
 
 group :development do
   gem 'middleman-livereload',"~> 3.1.0"

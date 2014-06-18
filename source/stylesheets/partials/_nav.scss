@@ -1,5 +1,5 @@
 .menu {
-	
+
 	.container {
 		@include outer-container;
 	}
@@ -28,7 +28,7 @@
 				background-size: 45px;
 				padding-left: 50px;
 			}
-			
+
 		}
 
 	}
@@ -59,16 +59,14 @@
 	    }
 
 	    .active {
-	    	
+
 	    	background: $blue;
 	    	color: white;
 	    }
 
 	    .github a{
-	    	background: url(images/github.png) no-repeat left center;
-			background-size: 40px;
-			padding-left: 55px;
-			&:hover {
+
+				&:hover {
 	    		background: $blue;
 	    		color: white;
 	    	}
@@ -77,26 +75,31 @@
 	}
 
 	.hero {
-		
+
 		@include outer-container;
 		padding: 40px 0;
 
 		h2,h5 {
+
 			font-family: 'Vera-Mono', Helvetica, sans-serif;
 		}
 		h5 {
+
 			margin-top: 20px;
 		}
 
 		.col7 {
+
 			@include span-columns(7);
 			@include omega();
 		}
 		.col5 {
+
 			@include span-columns(5);
 			@include omega();
 		}
 		.square {
+			
 			background: $blue;
 			width: 15px;
 			height: 30px;

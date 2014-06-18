@@ -1,52 +1,57 @@
 %ul
   %li.title
-    = link_to "documentation home", "/", class: 'title-inside'
-  %li.title
-    -if current_page.data.docs_cli_active == true
-      = link_to "commands (CLI)", "/documentation/cli", class: "active title-inside"
+    -if current_page.data.docs_home_active == true
+      = link_to "documentation home", "/documentation/getting_started", class: 'title-inside active'
     - else
-      = link_to "commands (CLI)", "/documentation/cli", class: 'title-inside'
+      = link_to "documentation home", "/documentation/getting_started", class: 'title-inside'
+  %li.title
+    %a.title-inside commands (CLI)
     %ul
-      %li 
+      %li
         -if current_page.data.docs_cli_scan_active == true
           = link_to "Scan", "/documentation/cli/scan", class: "active"
         - else
           = link_to "Scan", "/documentation/cli/scan"
-      %li 
+      %li
         -if current_page.data.docs_cli_bluetooth_active == true
           = link_to "Bluetooth", "/documentation/cli/bluetooth", class: "active"
         - else
           = link_to "Bluetooth", "/documentation/cli/bluetooth"
-      %li 
+      %li
         -if current_page.data.docs_cli_arduino_active == true
           = link_to "Arduino", "/documentation/cli/arduino", class: "active"
         - else
           = link_to "Arduino", "/documentation/cli/arduino"
-      %li 
+      %li
         -if current_page.data.docs_cli_spark_active == true
           = link_to "Spark", "/documentation/cli/spark", class: "active"
         - else
           = link_to "Spark", "/documentation/cli/spark"
-      %li 
+      %li
         -if current_page.data.docs_cli_digispark_active == true
           = link_to "Digispark", "/documentation/cli/digispark", class: "active"
         - else
           = link_to "Digispark", "/documentation/cli/digispark"
-      %li 
+      %li
         -if current_page.data.docs_cli_crazyflie_active == true
           = link_to "Crazyflie", "/documentation/cli/crazyflie", class: "active"
         - else
           = link_to "Crazyflie", "/documentation/cli/crazyflie"
-      %li 
+      %li
         -if current_page.data.docs_cli_klaatu_active == true
           = link_to "Klaatu", "/documentation/cli/klaatu", class: "active"
         - else
           = link_to "Klaatu", "/documentation/cli/klaatu"
-      %li 
+      %li
         -if current_page.data.docs_cli_help_active == true
           = link_to "Help", "/documentation/cli/help", class: "active"
         - else
           = link_to "Help", "/documentation/cli/help"
+  %li.title
+    -if current_page.data.docs_downloads_active == true
+      = link_to "downloads", "/documentation/getting_started/downloads", class: "active title-inside"
+    - else
+      = link_to "downloads", "/documentation/getting_started/downloads", class: 'title-inside'
   %li.title
     -if current_page.data.docs_contributing_active == true
       = link_to "contributing", "/documentation/getting_started/contributing", class: "active title-inside"
@@ -57,4 +62,3 @@
       = link_to "contact us", "/documentation/getting_started/contact_us", class: "active title-inside"
     - else
       = link_to "contact us", "/documentation/getting_started/contact_us", class: 'title-inside'
-    

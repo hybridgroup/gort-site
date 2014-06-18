@@ -1,21 +1,23 @@
 ---
-title: Documentation - CLI
+title: Documentation - Home
 author: The Hybrid Group
-description: Gort Documentation - CLI
+description: Gort Documentation Home
 layout: documentation
 active_docs: true
-docs_cli_active: true
+docs_home_active: true
 ---
 
 .content-info
-  %h1.title-top Commands CLI
+  %h1.title-top Documentation Home
+  %p  We now have precompiled binaries! You can also build from source.
+  %p  The Gort CLI provides many useful features on many hardware platforms, and has no other dependencies. You install Gort separately from any framework, which means you can use it to program Arduinos with the Firmata firmware also compatible with Cylon.js, Gobot, Artoo, & Johnny-Five. 
   %h2 How To Use
   .description
     :markdown
           $ ./gort
           NAME:
              gort - Command Line Utility for RobotOps
-          
+
           USAGE:
              gort [global options] command [command options] [arguments...]
 
@@ -48,4 +50,3 @@ docs_cli_active: true
     %p Once installed, you build the assets into the project like this:
     :markdown
           cd commands && go-bindata -pkg="commands" support/... && cd ..
-
