@@ -7,7 +7,9 @@
 	}
 
 	.green-button {
+
 		display: inline-block;
+
 		a {
 
 			background: $green;
@@ -20,6 +22,7 @@
 			line-height: em(17);
 			float: left;
 			color: $dark-gray;
+
 			p {
 
 				color: $dark-gray;
@@ -48,9 +51,9 @@
 	}
 
 	.container {
+
 		@include outer-container;
 		padding: em(20) 0;
-
 
 		.side-bar {
 
@@ -121,12 +124,14 @@
 		.content {
 
 			@include span-columns(9);
+			color: #666;
+
 			@media screen and (min-width: 320px) and (max-width: 480px) {
+
 		  		@include span-columns(12);
 		  		margin-top: em(20);
 		  		padding: em(10);
 			}
-			color: #666;
 
 			.content-info {
 
@@ -152,5 +157,4 @@
 			}
 		}
 	}
-
 }

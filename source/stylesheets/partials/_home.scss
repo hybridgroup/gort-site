@@ -4,6 +4,7 @@
 	padding: em(40);
 
 	.container {
+
 		@include outer-container;
 
 		.green-button a {
@@ -18,6 +19,7 @@
 			line-height: em(17);
 			display: inline-block;
 			color: $dark-gray;
+
 			p {
 
 				color: $dark-green;
@@ -26,6 +28,7 @@
 			}
 
 			&:hover {
+
 				background: darken($green,5);
 
 			}
@@ -47,6 +50,7 @@
 	}
 
 	.description {
+		
 		padding: em(20);
 	}
 

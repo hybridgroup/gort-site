@@ -1,6 +1,7 @@
 .menu {
 
 	.container {
+
 		@include outer-container;
 	}
 
@@ -9,7 +10,9 @@
 	padding: em(20) 0;
 
 	.logo {
+
 		@include span-columns(2);
+
 		a {
 
 			border: none;
@@ -19,10 +22,12 @@
 			color: white;
 
 			&:hover {
+
 				background: transparent;
 			}
 
 			h1 {
+
 				font-family: 'Roboto', Helvetica, sans-serif;
 				background: url(images/iconB.png) no-repeat left center;
 				background-size: 45px;
@@ -34,16 +39,18 @@
 	}
 
 	nav {
+
 	  @include span-columns(10);
 	  font-family: 'Roboto', Helvetica, sans-serif;
 
 	  ul {
+
 	    display: inline-block;
 	    @include span-columns(12);
 	    margin-bottom: em(10);
 
-
 	    a {
+
 	    	float: right;
 	    	border: $blue 2px solid;
 	    	padding: 8px;
@@ -53,6 +60,7 @@
 	    	color: white;
 
 	    	&:hover {
+
 	    		background: $blue;
 	    		color: white;
 	    	}
@@ -67,6 +75,7 @@
 	    .github a{
 
 				&:hover {
+
 	    		background: $blue;
 	    		color: white;
 	    	}
@@ -93,13 +102,15 @@
 			@include span-columns(7);
 			@include omega();
 		}
+
 		.col5 {
 
 			@include span-columns(5);
 			@include omega();
 		}
+		
 		.square {
-			
+
 			background: $blue;
 			width: 15px;
 			height: 30px;
