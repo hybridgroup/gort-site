@@ -2326,11 +2326,11 @@ dl {
 body {
   color: #242424; }
 
-/* line 5, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_layout.scss */
+/* line 6, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_layout.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Vera-Bold', Helvetica, sans-serif; }
 
-/* line 10, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_layout.scss */
+/* line 11, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_layout.scss */
 #main {
   max-width: 68em;
   margin-left: auto;
@@ -2342,7 +2342,7 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     clear: both; }
 
-/* line 15, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_layout.scss */
+/* line 17, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_layout.scss */
 .blue {
   color: #0db8ff; }
 
@@ -2361,7 +2361,7 @@ h1, h2, h3, h4, h5, h6 {
       content: "";
       display: table;
       clear: both; }
-  /* line 11, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+  /* line 12, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
   .menu .logo {
     float: left;
     display: block;
@@ -2370,23 +2370,23 @@ h1, h2, h3, h4, h5, h6 {
     /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
     .menu .logo:last-child {
       margin-right: 0; }
-    /* line 13, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+    /* line 16, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
     .menu .logo a {
       border: none;
       float: left;
       padding: 0;
       margin: 0;
       color: white; }
-      /* line 21, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+      /* line 24, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
       .menu .logo a:hover {
         background: transparent; }
-      /* line 25, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+      /* line 29, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
       .menu .logo a h1 {
         font-family: 'Roboto', Helvetica, sans-serif;
         background: url(images/iconB.png) no-repeat left center;
         background-size: 45px;
         padding-left: 50px; }
-  /* line 36, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+  /* line 41, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
   .menu nav {
     float: left;
     display: block;
@@ -2396,7 +2396,7 @@ h1, h2, h3, h4, h5, h6 {
     /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
     .menu nav:last-child {
       margin-right: 0; }
-    /* line 40, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+    /* line 46, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
     .menu nav ul {
       display: inline-block;
       float: left;
@@ -2407,7 +2407,7 @@ h1, h2, h3, h4, h5, h6 {
       /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
       .menu nav ul:last-child {
         margin-right: 0; }
-      /* line 46, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+      /* line 52, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
       .menu nav ul a {
         float: right;
         border: #0db8ff 2px solid;
@@ -2416,19 +2416,19 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: 20px;
         width: 130px;
         color: white; }
-        /* line 55, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+        /* line 62, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
         .menu nav ul a:hover {
           background: #0db8ff;
           color: white; }
-      /* line 61, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+      /* line 69, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
       .menu nav ul .active {
         background: #0db8ff;
         color: white; }
-      /* line 69, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+      /* line 77, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
       .menu nav ul .github a:hover {
         background: #0db8ff;
         color: white; }
-  /* line 77, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+  /* line 86, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
   .menu .hero {
     max-width: 68em;
     margin-left: auto;
@@ -2439,13 +2439,13 @@ h1, h2, h3, h4, h5, h6 {
       content: "";
       display: table;
       clear: both; }
-    /* line 82, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+    /* line 91, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
     .menu .hero h2, .menu .hero h5 {
       font-family: 'Vera-Mono', Helvetica, sans-serif; }
-    /* line 86, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+    /* line 95, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
     .menu .hero h5 {
       margin-top: 20px; }
-    /* line 91, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+    /* line 100, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
     .menu .hero .col7 {
       float: left;
       display: block;
@@ -2455,7 +2455,7 @@ h1, h2, h3, h4, h5, h6 {
       /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
       .menu .hero .col7:last-child {
         margin-right: 0; }
-    /* line 96, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+    /* line 106, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
     .menu .hero .col5 {
       float: left;
       display: block;
@@ -2465,7 +2465,7 @@ h1, h2, h3, h4, h5, h6 {
       /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
       .menu .hero .col5:last-child {
         margin-right: 0; }
-    /* line 101, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
+    /* line 112, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav.scss */
     .menu .hero .square {
       background: #0db8ff;
       width: 15px;
@@ -2487,7 +2487,7 @@ h1, h2, h3, h4, h5, h6 {
       content: "";
       display: table;
       clear: both; }
-  /* line 11, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+  /* line 12, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
   .home-menu .logo {
     float: left;
     display: block;
@@ -2496,22 +2496,22 @@ h1, h2, h3, h4, h5, h6 {
     /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
     .home-menu .logo:last-child {
       margin-right: 0; }
-    /* line 14, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+    /* line 16, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
     .home-menu .logo a {
       border: none;
       padding: 0;
       margin: 0;
       color: white; }
-      /* line 20, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+      /* line 22, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
       .home-menu .logo a:hover {
         background: transparent; }
-      /* line 24, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+      /* line 26, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
       .home-menu .logo a h1 {
         font-family: 'Roboto', Helvetica, sans-serif;
         background: url(images/icon.png) no-repeat left center;
         background-size: 45px;
         padding-left: 50px; }
-  /* line 34, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+  /* line 37, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
   .home-menu nav {
     float: left;
     display: block;
@@ -2521,7 +2521,7 @@ h1, h2, h3, h4, h5, h6 {
     /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
     .home-menu nav:last-child {
       margin-right: 0; }
-    /* line 39, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+    /* line 42, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
     .home-menu nav ul {
       float: left;
       display: block;
@@ -2531,7 +2531,7 @@ h1, h2, h3, h4, h5, h6 {
       /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
       .home-menu nav ul:last-child {
         margin-right: 0; }
-      /* line 44, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+      /* line 47, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
       .home-menu nav ul a {
         float: right;
         border: #0db8ff 2px solid;
@@ -2540,15 +2540,15 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: 20px;
         width: 130px;
         color: white; }
-        /* line 53, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+        /* line 57, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
         .home-menu nav ul a:hover {
           background: #0db8ff;
           color: white; }
-      /* line 60, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+      /* line 66, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
       .home-menu nav ul .github a:hover {
         background: #0db8ff;
         color: white; }
-  /* line 68, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+  /* line 75, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
   .home-menu .hero {
     max-width: 68em;
     margin-left: auto;
@@ -2558,24 +2558,24 @@ h1, h2, h3, h4, h5, h6 {
       content: "";
       display: table;
       clear: both; }
-    /* line 72, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+    /* line 79, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
     .home-menu .hero h2, .home-menu .hero h5 {
       font-family: 'Vera-Mono', Helvetica, sans-serif; }
-    /* line 75, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+    /* line 84, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
     .home-menu .hero h5 {
       margin-top: 20px; }
-    /* line 79, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+    /* line 89, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
     .home-menu .hero .col7 {
       float: left;
       display: block;
       margin-right: 2.12766%;
       width: 57.44681%;
       margin-right: 0;
-      padding: 3.75em 0; }
+      padding: 4.375em 0; }
       /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
       .home-menu .hero .col7:last-child {
         margin-right: 0; }
-    /* line 85, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+    /* line 96, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
     .home-menu .hero .col5 {
       float: left;
       display: block;
@@ -2586,7 +2586,7 @@ h1, h2, h3, h4, h5, h6 {
       .home-menu .hero .col5:last-child {
         margin-right: 0; }
     @media screen and (min-width: 320px) and (max-width: 480px) {
-      /* line 91, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+      /* line 104, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
       .home-menu .hero .col7 {
         float: left;
         display: block;
@@ -2596,7 +2596,7 @@ h1, h2, h3, h4, h5, h6 {
         /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
         .home-menu .hero .col7:last-child {
           margin-right: 0; }
-      /* line 95, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+      /* line 110, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
       .home-menu .hero .col5 {
         float: left;
         display: block;
@@ -2606,7 +2606,7 @@ h1, h2, h3, h4, h5, h6 {
         /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
         .home-menu .hero .col5:last-child {
           margin-right: 0; } }
-    /* line 101, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
+    /* line 117, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_nav_home.scss */
     .home-menu .hero .square {
       background: #0db8ff;
       width: 15px;
@@ -2616,7 +2616,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 1, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_footer.scss */
 footer {
   background: url(images/footer.png) #0a89be no-repeat center center; }
-  /* line 4, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_footer.scss */
+  /* line 5, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_footer.scss */
   footer .container {
     max-width: 68em;
     margin-left: auto;
@@ -2628,7 +2628,7 @@ footer {
       content: "";
       display: table;
       clear: both; }
-    /* line 9, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_footer.scss */
+    /* line 11, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_footer.scss */
     footer .container .copy {
       float: left;
       display: block;
@@ -2638,7 +2638,7 @@ footer {
       /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
       footer .container .copy:last-child {
         margin-right: 0; }
-    /* line 13, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_footer.scss */
+    /* line 17, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_footer.scss */
     footer .container .THG {
       float: left;
       display: block;
@@ -2674,7 +2674,7 @@ footer {
       content: "";
       display: table;
       clear: both; }
-    /* line 9, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
+    /* line 10, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
     .welcome .container .green-button a {
       background: #94b561;
       margin-top: 1.25em;
@@ -2690,29 +2690,29 @@ footer {
       line-height: 1.0625em;
       display: inline-block;
       color: #242424; }
-      /* line 21, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
+      /* line 23, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
       .welcome .container .green-button a p {
         color: #526632;
         margin: 0;
         font-size: 10pt; }
-      /* line 28, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
+      /* line 30, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
       .welcome .container .green-button a:hover {
         background: #88ac51; }
 
-/* line 36, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
+/* line 39, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
 .how-to-use {
   background: #242424;
   color: white;
   margin-bottom: 1.25em; }
-  /* line 42, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
+  /* line 45, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
   .how-to-use .title {
     background: #313131;
     color: #0db8ff;
     padding: 1.25em; }
-  /* line 49, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
+  /* line 52, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
   .how-to-use .description {
     padding: 1.25em; }
-  /* line 53, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
+  /* line 57, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_home.scss */
   .how-to-use pre {
     background: #3e3e3e;
     padding: 0.3125em;
@@ -2733,7 +2733,7 @@ footer {
 /* line 9, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
 .documentation .green-button {
   display: inline-block; }
-  /* line 11, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+  /* line 13, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
   .documentation .green-button a {
     background: #94b561;
     margin-top: 1.25em;
@@ -2749,15 +2749,15 @@ footer {
     line-height: 1.0625em;
     float: left;
     color: #242424; }
-    /* line 23, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+    /* line 26, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
     .documentation .green-button a p {
       color: #242424;
       margin: 0;
       font-size: 10pt; }
-    /* line 30, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+    /* line 33, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
     .documentation .green-button a:hover {
       background: #88ac51; }
-/* line 37, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+/* line 40, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
 .documentation pre {
   font-size: 10pt;
   background: #3e3e3e;
@@ -2772,7 +2772,7 @@ footer {
   border-bottom-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px; }
-/* line 50, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+/* line 53, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
 .documentation .container {
   max-width: 68em;
   margin-left: auto;
@@ -2783,7 +2783,7 @@ footer {
     content: "";
     display: table;
     clear: both; }
-  /* line 55, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+  /* line 58, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
   .documentation .container .side-bar {
     float: left;
     display: block;
@@ -2800,7 +2800,7 @@ footer {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; }
     @media screen and (min-width: 320px) and (max-width: 480px) {
-      /* line 55, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+      /* line 58, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
       .documentation .container .side-bar {
         float: left;
         display: block;
@@ -2812,40 +2812,40 @@ footer {
     /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
     .documentation .container .side-bar:last-child {
       margin-right: 0; }
-    /* line 74, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+    /* line 77, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
     .documentation .container .side-bar ul .active:before {
       content: "● ";
       color: red;
       /* or whatever color you prefer */
       margin-left: -10px; }
-    /* line 81, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+    /* line 84, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
     .documentation .container .side-bar ul .title {
       border-bottom: 1px solid white; }
-      /* line 85, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+      /* line 88, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
       .documentation .container .side-bar ul .title a.title-inside {
         text-transform: uppercase;
         font-size: 10pt;
         color: #717171;
         padding: 0.625em 0;
         display: inline-block; }
-        /* line 93, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+        /* line 96, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
         .documentation .container .side-bar ul .title a.title-inside:hover {
           color: #242424; }
-      /* line 99, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+      /* line 102, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
       .documentation .container .side-bar ul .title ul {
         padding-left: 30px;
         padding-bottom: 10px;
         color: #717171; }
-        /* line 104, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+        /* line 107, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
         .documentation .container .side-bar ul .title ul li {
           font-size: 10pt; }
-          /* line 107, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+          /* line 110, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
           .documentation .container .side-bar ul .title ul li a {
             color: #717171; }
-            /* line 111, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+            /* line 114, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
             .documentation .container .side-bar ul .title ul li a:hover {
               color: #242424; }
-  /* line 121, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+  /* line 124, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
   .documentation .container .content {
     float: left;
     display: block;
@@ -2856,7 +2856,7 @@ footer {
     .documentation .container .content:last-child {
       margin-right: 0; }
     @media screen and (min-width: 320px) and (max-width: 480px) {
-      /* line 121, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+      /* line 124, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
       .documentation .container .content {
         float: left;
         display: block;
@@ -2867,14 +2867,14 @@ footer {
         /* line 38, /Users/xixebombilla/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
         .documentation .container .content:last-child {
           margin-right: 0; } }
-    /* line 131, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+    /* line 136, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
     .documentation .container .content .content-info {
       padding-bottom: 200px; }
-      /* line 135, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+      /* line 140, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
       .documentation .container .content .content-info ul {
         list-style: square;
         margin-left: 2.5em; }
-      /* line 141, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
+      /* line 146, /Users/xixebombilla/Documents/THG/gort-site/source/stylesheets/partials/_documentation.scss */
       .documentation .container .content .content-info .title-top {
         font-family: Helvetica, sans-serif;
         border-bottom: 1px solid #d0dbe1;
