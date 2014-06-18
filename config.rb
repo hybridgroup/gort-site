@@ -10,5 +10,4 @@ activate :neat
 
 configure :development do
   activate :livereload
-  
 end
