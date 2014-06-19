@@ -51,7 +51,7 @@
         </h3>
         <br>
         <div>
-          We now have precompiled binaries! You can also build from source.<br> The Gort CLI provides many useful features on many hardware platforms, and has no other dependencies. You install Gort separately from any framework, which means you can use it to program Arduinos with the Firmata firmware also compatible with Cylon.js, Gobot, Artoo, & Johnny-Five.
+          The Gort CLI provides many useful features on many hardware platforms, and has no other dependencies. You install Gort separately from any framework, which means you can use it to program Arduinos with the Firmata firmware also compatible with Cylon.js, Gobot, Artoo, & Johnny-Five. And more!
         </div>
         <div class='green-button'>
           <a href="/documentation/getting_started/downloads">DOWNLOAD<br><p>OSX / WINDOWS / LINUX</p></a>
@@ -64,7 +64,7 @@
           <h4>How To Use</h4>
         </div>
         <div class='description'>
-          <pre><code>$ ./gort&#x000A;NAME:&#x000A;   gort - Command Line Utility for RobotOps&#x000A;&#x000A;USAGE:&#x000A;   gort [global options] command [command options] [arguments...]&#x000A;&#x000A;VERSION:&#x000A;   0.1.0&#x000A;&#x000A;COMMANDS:&#x000A;   scan   Scan for connected devices on Serial, USB, or Bluetooth ports&#x000A;   bluetooth  Scan, pair, unpair bluetooth devices. Establishes serial to Bluetooth connection.&#x000A;   arduino  Install avrdude, and upload sketches to your Arduino&#x000A;   spark  Upload sketches to your Spark&#x000A;   digispark  Configure your Digispark microcontroller&#x000A;   crazyflie  Configure your Crazyflie&#x000A;   klaatu barada nikto&#x000A;   help, h  Shows a list of commands or help for one command&#x000A;&#x000A;GLOBAL OPTIONS:&#x000A;   --version, -v  print the version&#x000A;   --help, -h   show help&#x000A;</code></pre>
+          <pre><code>$ ./gort&#x000A;NAME:&#x000A;   gort - Command Line Utility for RobotOps&#x000A;&#x000A;USAGE:&#x000A;   gort [global options] command [command options] [arguments...]&#x000A;&#x000A;VERSION:&#x000A;   0.2.0&#x000A;&#x000A;COMMANDS:&#x000A;   scan   Scan for connected devices on Serial, USB, or Bluetooth ports&#x000A;   bluetooth  Scan, pair, unpair bluetooth devices. Establishes serial to Bluetooth connection.&#x000A;   arduino  Install avrdude, and upload sketches to your Arduino&#x000A;   spark  Upload sketches to your Spark&#x000A;   digispark  Configure your Digispark microcontroller&#x000A;   crazyflie  Configure your Crazyflie&#x000A;   klaatu barada nikto&#x000A;   help, h  Shows a list of commands or help for one command&#x000A;   &#x000A;GLOBAL OPTIONS:&#x000A;   --version, -v  print the version&#x000A;   --help, -h   show help&#x000A;</code></pre>
         </div>
         <div class='title'>
           <h6>Scan for connected serial devices:</h6>
@@ -75,13 +75,13 @@
       </div>
       <div class='how-to-use'>
         <div class='title'>
-          <h4>Building</h4>
+          <h4>Installing</h4>
         </div>
         <div class='description'>
-          <p>You need to have installed go-bindata to build the file assets into Gort for a single standalone executable:</p>
-          <pre><code>go get github.com/jteeuwen/go-bindata/...&#x000A;</code></pre>
-          <p>Once installed, you build the assets into the project like this:</p>
-          <pre><code>cd commands &amp;&amp; go-bindata -pkg="commands" support/... &amp;&amp; cd ..&#x000A;</code></pre>
+          <p>Download the correct binary for your operating system, and then run it. You do not need to have the Go language installed. The Gort binary contains everything that you need to execute it with no other dependencies.</p>
+          <a href='/documentation/getting_started/downloads'>
+            Download it now for OSX, WINDOWS, & LINUX
+          </a>
         </div>
       </div>
     </div>
