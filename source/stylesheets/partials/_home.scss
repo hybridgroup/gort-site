@@ -55,8 +55,6 @@
 	}
 
 	pre {
-
-		background: lighten($dark-gray, 10);
 		padding: em(5);
 		margin: 0;
 		@include border-top-radius(5px);
