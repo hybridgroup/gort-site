@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6 {
 #main {
 
     @include outer-container;
-    margin: em(20) auto;
+    margin: em(20) auto 0;
 }
 
 .blue {
