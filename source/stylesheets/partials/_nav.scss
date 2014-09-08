@@ -1,3 +1,96 @@
+nav {
+
+	@include span-columns(10);
+	font-family: 'Roboto', Helvetica, sans-serif;
+
+	ul {
+
+		@include span-columns(12);
+		margin-bottom: em(10);
+
+		a {
+
+			float: right;
+			border: $blue 2px solid;
+			padding: 8px;
+			text-align: center;
+			margin-left: 20px;
+			width: 130px;
+			color: white;
+
+			&:hover {
+
+				background: $blue;
+				color: white;
+			}
+		}
+
+		.github a{
+
+				&:hover {
+
+				background: $blue;
+				color: white;
+			}
+		}
+	}
+
+	@media screen and (max-width: 460px){
+
+		@include span-columns(12);
+
+		ul {
+
+	    @include span-columns(12);
+	    text-align: center;
+	    
+		    li{
+		    	display: inline-block;
+			}
+
+		    a{
+		    	float: left;
+		    	margin: 0 10px;
+		    }
+		}
+	}
+}
+
+.logo {
+
+	@include span-columns(2);
+
+	@media screen and (max-width: 460px){
+
+		@include span-columns(12);
+		margin-bottom: 10px;
+	}
+
+	a {
+
+		border: none;
+		float: left;
+		padding: 0;
+		margin: 0;
+		color: white;
+
+		&:hover {
+
+			background: transparent;
+		}
+
+		h1 {
+
+			font-family: 'Roboto', Helvetica, sans-serif;
+			font-weight: 400;
+			background-size: 45px;
+			padding-left: 50px;
+		}
+
+	}
+
+}
+
 .menu {
 
 	.container {
@@ -9,112 +102,8 @@
 	color: white;
 	padding: em(20) 0;
 
-	.logo {
+	h1 {
 
-		@include span-columns(2);
-
-		a {
-
-			border: none;
-			float: left;
-			padding: 0;
-			margin: 0;
-			color: white;
-
-			&:hover {
-
-				background: transparent;
-			}
-
-			h1 {
-
-				font-family: 'Roboto', Helvetica, sans-serif;
-				background: url(images/iconB.png) no-repeat left center;
-				background-size: 45px;
-				padding-left: 50px;
-			}
-
-		}
-
-	}
-
-	nav {
-
-	  @include span-columns(10);
-	  font-family: 'Roboto', Helvetica, sans-serif;
-
-	  ul {
-
-	    display: inline-block;
-	    @include span-columns(12);
-	    margin-bottom: em(10);
-
-	    a {
-
-	    	float: right;
-	    	border: $blue 2px solid;
-	    	padding: 8px;
-	    	text-align: center;
-	    	margin-left: 20px;
-	    	width: 130px;
-	    	color: white;
-
-	    	&:hover {
-
-	    		background: $blue;
-	    		color: white;
-	    	}
-	    }
-
-	    .active {
-
-	    	background: $blue;
-	    	color: white;
-	    }
-
-	    .github a{
-
-				&:hover {
-
-	    		background: $blue;
-	    		color: white;
-	    	}
-	    }
-	  }
-	}
-
-	.hero {
-
-		@include outer-container;
-		padding: 40px 0;
-
-		h2,h5 {
-
-			font-family: 'Vera-Mono', Helvetica, sans-serif;
-		}
-		h5 {
-
-			margin-top: 20px;
-		}
-
-		.col7 {
-
-			@include span-columns(7);
-			@include omega();
-		}
-
-		.col5 {
-
-			@include span-columns(5);
-			@include omega();
-		}
-		
-		.square {
-
-			background: $blue;
-			width: 15px;
-			height: 30px;
-			display: inline-block;
-		}
+		background: url(images/iconB.png) no-repeat left center;
 	}
 }
