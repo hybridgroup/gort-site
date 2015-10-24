@@ -23,10 +23,10 @@
         - else
           = link_to "Arduino", "/documentation/cli/arduino"
       %li
-        -if current_page.data.docs_cli_spark_active == true
-          = link_to "Spark", "/documentation/cli/spark", class: "active"
+        -if current_page.data.docs_cli_particle_active == true
+          = link_to "Particle", "/documentation/cli/particle", class: "active"
         - else
-          = link_to "Spark", "/documentation/cli/spark"
+          = link_to "Particle", "/documentation/cli/particle"
       %li
         -if current_page.data.docs_cli_digispark_active == true
           = link_to "Digispark", "/documentation/cli/digispark", class: "active"
