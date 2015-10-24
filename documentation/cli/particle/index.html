@@ -2,9 +2,9 @@
 <html><head>
     <meta charset='utf-8'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <meta content='Gort Documentation - Spark' name='description'>
+    <meta content='Gort Documentation - Particle' name='description'>
     <meta content='The Hybrid Group' name='author'>
-    <title>Documentation - Spark</title>
+    <title>Documentation - Particle</title>
     <link href='/stylesheets/normalize.css' rel='stylesheet'>
     <link href='/stylesheets/all.css' rel='stylesheet'>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
@@ -60,13 +60,10 @@
                   <a href="/documentation/cli/arduino">Arduino</a>
                 </li>
                 <li>
-                  <a class="active" href="/documentation/cli/spark">Spark</a>
+                  <a class="active" href="/documentation/cli/particle">Particle</a>
                 </li>
                 <li>
                   <a href="/documentation/cli/digispark">Digispark</a>
-                </li>
-                <li>
-                  <a href="/documentation/cli/dronedrop">DroneDrop</a>
                 </li>
                 <li>
                   <a href="/documentation/cli/crazyflie">Crazyflie</a>
@@ -92,15 +89,15 @@
         </div>
         <div class='content'>
           <div class='content-info'>
-            <h1 class='title-top'>Spark</h1>
+            <h1 class='title-top'>Particle</h1>
             <div class='description'>
               <h3>
-                <b>gort [global options] command [command options] [arguments...]</b>
+                <b>gort [global options] command <required arguments> [optional arguments...]</b>
               </h3>
               <br>
               <h4>Description</h4>
-              <p>Upload sketches to your Spark.</p>
-              <pre><code>$ gort spark &#x000A;Usage:&#x000A;gort spark upload [accessToken] [deviceId] [default|voodoospark|path name] # uploads sketch to Spark&#x000A;</code></pre>
+              <p>Upload sketches to your Particle Photon.</p>
+              <pre><code>$ gort particle&#x000A;Usage:&#x000A;gort particle upload &lt;accessToken&gt; &lt;deviceId&gt; &lt;default|voodoospark|path name&gt; # uploads sketch to Particle&#x000A;</code></pre>
             </div>
           </div>
         </div>
@@ -113,7 +110,7 @@
             <img height='30' src='/stylesheets/images/THG.png'>
           </a>
         </div>
-        <p class='copy'>&copy; Copyright 2014 The Hybrid Group</p>
+        <p class='copy'>&copy; Copyright 2014-2015 The Hybrid Group</p>
       </div>
     </footer>
   </body>
