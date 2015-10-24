@@ -33,11 +33,6 @@
         - else
           = link_to "Digispark", "/documentation/cli/digispark"
       %li
-        -if current_page.data.docs_cli_dronedrop_active == true
-          = link_to "DroneDrop", "/documentation/cli/dronedrop", class: "active"
-        - else
-          = link_to "DroneDrop", "/documentation/cli/dronedrop"
-      %li
         -if current_page.data.docs_cli_crazyflie_active == true
           = link_to "Crazyflie", "/documentation/cli/crazyflie", class: "active"
         - else
