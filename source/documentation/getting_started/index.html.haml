@@ -10,7 +10,7 @@ docs_home_active: true
 .content-info
   %h1.title-top Documentation Home
   %p  We now have precompiled binaries! You can also build from source.
-  %p  The Gort CLI provides many useful features on many hardware platforms, and has no other dependencies. You install Gort separately from any framework, which means you can use it to program Arduinos with the Firmata firmware also compatible with Cylon.js, Gobot, Artoo, & Johnny-Five. 
+  %p  The Gort CLI provides many useful features on many hardware platforms, and has no other dependencies. You install Gort separately from any framework, which means you can use it to program Arduinos with the Firmata firmware also compatible with Cylon.js, Gobot, Artoo, & Johnny-Five.
   %h2 How To Use
   .description
     :markdown
@@ -19,26 +19,25 @@ docs_home_active: true
              gort - Command Line Utility for RobotOps
 
           USAGE:
-             gort [global options] command [command options] [arguments...]
+             gort [global options] command <required arguments> [optional arguments...]
 
           VERSION:
-             0.3.0
+             0.4.1
 
           COMMANDS:
              scan         Scan for connected devices on Serial, USB, or Bluetooth ports
-             bluetooth    Pair, unpair & connect to bluetooth devices.
+             bluetooth    Pair, connect, & unpair bluetooth devices.
              arduino      Install avrdude, and upload HEX files to your Arduino
-             spark        Upload sketches to your Spark
+             particle     Upload sketches to your Particle Photon
              digispark    Configure your Digispark microcontroller
              crazyflie    Configure your Crazyflie
              klaatu       barada nikto
-             dronedrop    Install, uninstall, update and download dronedrop firmware
              help, h      Shows a list of commands or help for one command
-             
+
           GLOBAL OPTIONS:
              --help, -h           show help
              --version, -v        print the version
-             
+
   %h5 Scan for connected serial devices:
   .description
     :markdown
