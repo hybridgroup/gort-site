@@ -11,7 +11,7 @@ docs_cli_bluetooth_active: true
   %h1.title-top Bluetooth
   .description
     %h3
-      %b gort [global options] command <required arguments> [optional arguments...]
+      %b gort [global options] bluetooth <required arguments> [optional arguments...]
     %br
     %h4 Description
     %p Pair, connect, & unpair bluetooth devices.
@@ -19,5 +19,5 @@ docs_cli_bluetooth_active: true
           $ gort bluetooth
           Usage:
           gort bluetooth pair <address> [hciX]
-          gort bluetooth connect <port> <address> [hciX]
+          gort bluetooth connect <address> [port] [hciX]
           gort bluetooth unpair <address> [hciX]
