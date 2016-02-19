@@ -92,19 +92,26 @@
             <h1 class='title-top'>Arduino</h1>
             <div class='description'>
               <h3>
-                <b>gort [global options] command <required arguments> [optional arguments...]</b>
+                <b>gort [global options] arduino <required arguments> [optional arguments...]</b>
               </h3>
               <br>
               <h4>Description</h4>
               <p>Install avrdude, and upload sketches to your Arduino</p>
-              <pre><code>$ gort arduino&#x000A;Usage:&#x000A;gort arduino install                                   # installs avrdude to allow uploading of sketchesto     Arduino&#x000A;gort arduino upload firmata [port]                    # uploads Firmata sketch to Arduino&#x000A;gort arduino upload rapiro [port]                     # uploads Rapiro sketch to Arduino&#x000A;gort arduino upload [custom-firmware-filename] [port] # uploads a custom sketch to Arduino&#x000A;</code></pre>
+              <pre><code>$ gort arduino&#x000A;&#x000A;Usage:&#x000A;  # installs avrdude to allow uploading of sketches to Arduino&#x000A;  gort arduino install&#x000A;&#x000A;  # uploads Firmata sketch to Arduino&#x000A;  gort arduino upload firmata &lt;port&gt; [flags]&#x000A;&#x000A;  # uploads Rapiro sketch to Arduino&#x000A;  gort arduino upload rapiro &lt;port&gt; [flags]&#x000A;&#x000A;  # uploads a custom sketch to Arduino&#x000A;  gort arduino upload &lt;custom-firmware-filename&gt; &lt;port&gt; [flags]&#x000A;&#x000A;    upload flags:&#x000A;      -b &lt; m328 | uno | nano | mini | ethernet | fio | m168 |&#x000A;           diecimila | stamp | mega | mega1280 | mega2560 | megaADK |&#x000A;           leonardo | robot | micro | esplora &gt;&#x000A;</code></pre>
               <b>Notes:</b>
-              <p>To be able to run the upload command
-              you must run <code>gort arduino install</code> first.
-              The serial port must have the correct permissions for your
-              user to read and write, or run it as root (sudo it).</p>
+              <p>To be able to run the <code>gort arduino upload</code> command
+              you must run <code>gort arduino install</code> first.</p>
               
-              <pre><code>$ gort arduino upload ttyACM0&#x000A;&#x000A;avrdude: AVR device initialized and ready to accept instructions&#x000A;&#x000A;Reading | ################################################## | 100% 0.00s&#x000A;&#x000A;avrdude: Device signature = 0x1e950f&#x000A;avrdude: reading input file "/home/myuser/workspace/cylon-cmds/node_modules/cylon-   firmata/src/cli/hex/StandardFirmata.cpp.hex"&#x000A;avrdude: writing flash (11452 bytes):&#x000A;&#x000A;Writing | ################################################## | 100% 1.84s&#x000A;&#x000A;avrdude: 11452 bytes of flash written&#x000A;avrdude: verifying flash memory against /home/myuser/workspace/cylon-cmds/node_modules/cylon-   firmata/src/cli/hex/StandardFirmata.cpp.hex:&#x000A;avrdude: load data flash data from input file /home/myuser/workspace/cylon-cmds/node_modules/cylon-   firmata/src/cli/hex/StandardFirmata.cpp.hex:&#x000A;avrdude: input file /home/myuser/workspace/cylon-cmds/node_modules/cylon-firmata/src/cli/hex/StandardFirmata.   cpp.hex contains 11452 bytes&#x000A;avrdude: reading on-chip flash data:&#x000A;&#x000A;Reading | ################################################## | 100% 1.47s&#x000A;&#x000A;avrdude: verifying ...&#x000A;avrdude: 11452 bytes of flash verified&#x000A;&#x000A;avrdude: safemode: Fuses OK&#x000A;&#x000A;avrdude done.  Thank you.&#x000A;</code></pre>
+              <p>To choose a specific board type for upload, use the <code>-b</code> flag.</p>
+              
+              <p>For example, to upload the Firmata sketch to an Arduino Nano:</p>
+              
+              <pre><code>$ gort arduino upload firmata /dev/ttyACM0 -b nano&#x000A;</code></pre>
+              
+              <p>In addition, the serial port must have the correct permissions for your
+              user to read and write, or run the command as root by using sudo:</p>
+              
+              <pre><code>$ sudo gort arduino upload firmata /dev/ttyACM0 -b nano&#x000A;</code></pre>
             </div>
           </div>
         </div>
