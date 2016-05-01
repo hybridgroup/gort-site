@@ -14,10 +14,12 @@ docs_cli_bluetooth_active: true
       %b gort [global options] bluetooth <required arguments> [optional arguments...]
     %br
     %h4 Description
-    %p Pair, connect, & unpair bluetooth devices.
+    %p Connect & disconnect bluetooth devices.
     :markdown
           $ gort bluetooth
+          Invalid/no subcommand supplied.
+
           Usage:
-          gort bluetooth pair <address> [hciX]
-          gort bluetooth connect <address> [port] [hciX]
-          gort bluetooth unpair <address> [hciX]
+          gort bluetooth connect <address> [hciX]
+          gort bluetooth serial <address> [port] [hciX]
+          gort bluetooth disconnect <address> [hciX]
