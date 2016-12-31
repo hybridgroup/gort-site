@@ -16,27 +16,27 @@ docs_home_active: true
     :markdown
           $ gort
           NAME:
-          gort - Command Line Utility for RobotOps
+             gort - Command Line Utility for RobotOps
 
           USAGE:
-          gort [global options] command [command options] [arguments...]
+             gort [global options] command [command options] [arguments...]
 
           VERSION:
-          0.6.2
+             0.7.0
 
           COMMANDS:
-          scan         Scan for connected devices on Serial, USB, or Bluetooth ports
-          bluetooth    Connect & disconnect bluetooth devices.
-          arduino      Install avrdude, and upload HEX files to your Arduino
-          particle     Upload sketches to your Particle Photon
-          digispark    Configure your Digispark microcontroller
-          crazyflie    Configure your Crazyflie
-          klaatu       barada nikto
-          help, h      Shows a list of commands or help for one command
+               scan       Scan for connected devices on Serial, USB, or Bluetooth ports
+               bluetooth  Connect & disconnect bluetooth devices.
+               arduino    Install avrdude, and upload HEX files to your Arduino
+               particle   Upload sketches to your Particle Photon or Electron
+               digispark  Configure your Digispark microcontroller
+               crazyflie  Configure your Crazyflie
+               klaatu     barada nikto
+               help, h    Shows a list of commands or help for one command
 
           GLOBAL OPTIONS:
-          --help, -h           show help
-          --version, -v        print the version
+             --help, -h     show help
+             --version, -v  print the version
 
   %h5 Scan for connected serial devices:
   .description
@@ -45,9 +45,4 @@ docs_home_active: true
           [    0.000000] console [tty0] enabled
   %h2 Building
   .description
-    %p You need to have installed go-bindata to build the file assets into Gort for a single standalone executable:
-    :markdown
-          go get github.com/jteeuwen/go-bindata/...
-    %p Once installed, you build the assets into the project like this:
-    :markdown
-          cd commands && go-bindata -pkg="commands" support/... && cd ..
+    %p Check out our Github repo for more information on how to build gort from source.
